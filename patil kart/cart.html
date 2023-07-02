@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patilcart || cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width-device-width ,initial-scale:1.0">
+        <script src="script.js" async> </script>
+       
+    </head>
+
+    <body>
+
+        
+            <div class="navbar">
+                <a href="products.html" ><img src="webphoto/patilcart.png" class="logo"></a>
+                <nav>
+                    <ul id="menulist">
+                        
+                        <li> <a href="products.html"> Products</a> </li>
+                        <li> <a href="index.html"> Home</a> </li>
+                        <li> <a href="contactus.html" >Contact us  </a></li>
+                        <li> <a href="log.html"> login</a> </li>
+                        <li> <a href="cart.html" style="margin-right:20px"> <i  class="fa fa-shopping-cart"></i> </a></li>
+                    </ul>
+                </nav>
+                <img src="webphoto/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+               
+        
+    
+<!--------------------------------------------------------------cart item details------------------------------------------------------->
+
+<div class="small-container cart-page">
+
+    <table>  <!----table--------->
+    
+    <tr>
+    
+    <th> Product </th> <!---table header--->
+    <th> Quantity </th> <!---table header--->
+    <th> Subtotal </th> <!---table header--->
+    
+    </tr>
+    
+    <tr>
+    
+    <td>  <!---table data--->
+    
+    <div class="cart-info" >
+    <img src="webphoto/shirt.jpeg">
+    <div> 
+    <h6> ICOME </h6>
+    <p>Men Regular Fit Stripted Casual Shirt</p>
+    <small>Price $50.00 </small>
+    <br>
+    <button class="btn3 btn3-danger"> remove </button>
+    </div>
+    </div>
+    
+    </td>
+    
+    <td> <input type="number" value="1"></td>
+    <td> $50.00</td>
+    
+    </tr>
+    
+    <tr> 
+    
+    <td>
+    
+    <div class="cart-info" >
+    <img src="webphoto/mobile.jpg">
+    <div> 
+        <h6>REMI</h6>
+    <p> Redmi Note 10T 5G (green , 128 GB)(6 GB Ram)</p>
+    <small>Price $100.00 </small>
+    <br>
+    <button class="btn3 btn3-danger"> remove </button>
+    </div>
+    </div>
+    
+    </td>
+    
+    <td> <input type="number" value="1"></td>
+    <td> 100.00</td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+    <div class="cart-info">
+    <img src="webphoto/shoes8.jpeg">
+    <div> 
+        <h6>KWIK FIT</h6>
+    <p> KWIK FIT casual sneaker shoes</p>
+    <small>Price $40.00 </small>
+    <br>
+    <button class="btn3 btn3-danger"> remove </button>
+    <button class="btn3 btn3-primary shop-item-button" type="button">ADD TO CART</button>
+    
+    </div>
+    </div>
+    
+    </td>
+    
+    <td> <input type="number" value="1"></td>
+    <td> $40.00</td>
+    
+    </tr>
+    
+    </table>
+    
+    
+    <div class="total-price">
+    
+    <table>
+    
+    <tr>
+    <td> Subtotal</td>
+    <td> $190.00 </td>
+    </tr>
+    
+    <tr>
+    <td> Tax</td>
+    <td> $35.00 </td>
+    </tr>
+    
+    <tr>
+    <td> Total</td>
+    <td> $225.00 </td>
+    </tr>
+    
+    </table>
+    
+    </div> <!---total-price-->
+            
+    </div>
+
+    <section class="cartcontainer content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn3 btn3-primary btn3-purchase" type="button">PURCHASE</button>
+    </section>
+    
+    
+
+      <!----------------------------------------- footer---------------------------------------------->
+           
+      <div class="footer">
+
+        <div class="footercontainer">
+        
+        <div class="footerrow">
+        
+        
+        <div class="footer-col-1">
+        <a href="index.html"><img src="webphoto/pawarcart.png"></a>
+        <p> Our purpose is to Sustainbly Make the Pleasure and Benefits of online Accessible to the Many. </p>
+        </div>
+        
+        <div class="footer-col-2">
+        <h3 style="color: red; font-weight:bold"> Useful Links</h3>
+        
+        <ul>
+        <li><a href="#"> Coupons  </a></li>
+        <li> <a href="#"> Blog Post </a></li>
+        <li> <a href="#">FAQ </a></li>
+        <li><a href="#"> Join Affliate </a></li>
+        <li><a href="#"> Return Policy </a></li>
+        </ul>
+        </div>
+        
+        <div class="footer-col-3">
+        <h3 style="color: red; font-weight:bold"> Product</h3>
+        <ul>
+        <li> <a href="#">Watch</a> </li>
+        <li> <a href="#">Shirt</a>  </li>
+        <li> <a href="#">Shoes</a>  </li>
+        <li> <a href="#">Mobile</a>  </li>
+        </ul>
+        </div>
+        <div class="footer-col-3">
+            <h3 style="color: red; font-weight:bold"> Company</h3>
+            <ul>
+            <li> <a href="#">About Us</a> </li>
+            <li> <a href="#">Privacy Policy</a>  </li>
+            <li> <a href="#">Terms&services</a>  </li>
+            <li> <a href="#"> Contacts</a> </li>
+            </ul>
+            </div>
+        
+        </div> <!----row---->
+        
+        <hr>
+        <p class="copyright"> Copyright 2022  &copy;Pawarcart </p>
+        <div class="socials">
+           <a href="#"><i class="fa fa-facebook"></i></a>
+           <a href="#"><i class="fa fa-instagram"></i></a>
+           <a href="#"><i class="fa fa-youtube"></i></a>
+           <a href="#"><i class="fa fa-twitter"></i></a>
+           <a href="#"><i class="fa fa-tumblr"></i></a>
+        </div>
+        </div> <!----container----->
+        
+        </div> <!----footer-----  --------->     
+
+
+
+
+
+     <!----------------------------------------- footer---------------------------------------------->
+    <!-----------------------------------------------------------cart item details ends here----------------------------------------------->
+        <!-----------------------------------------------------JS for toggle menu------------------------------------------------------>
+    
+        <script>
+
+            var menulist=document.getElementById("menulist");
+            
+            menulist.style.maxHeight="0px";
+            
+            function togglemenu(){
+            if(menulist.style.maxHeight=="0px"){
+            menulist.style.maxHeight="160px";
+            }
+            else
+            {
+            menulist.style.maxHeight="0px";
+            }
+            }
+            
+            </script>
+           
+            
+            <!-----------------------------------------------------JS for toggle menu ends here ---------------------------------------------->
+            
+    
+
+    
+    </body>
+    
+    </html> 

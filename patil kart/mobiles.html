@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patilcart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width-device-width ,initial-scale:1.0">
+        <script src="script.js" async> </script>
+    </head>
+
+    <body>
+
+      <div class="smallcontainer">
+        <div class="navbar">
+            <a href="products.html" ><img src="webphoto/patilcart.png" class="logo"></a>
+            <nav>
+                <ul id="menulist">
+                    
+                    <li> <a href="products.html"> Products</a> </li>
+                    <li> <a href="index.html"> Home</a> </li>
+                    <li> <a href="contactus.html" >Contact us  </a></li>
+                    <li> <a href="log.html"> login</a> </li>
+                    <li> <a href="cart.html"style="margin-right:20px"> <i  class="fa fa-shopping-cart"></i></a> </li>
+                </ul>
+            </nav>
+            <img src="webphoto/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <section class="product">
+            <h2 class="product-category"><b>MOBILES</b></h2>
+            <p style="float:right ">
+                <select style="background-color:black;color:white">
+                    <option>Filter </option>
+                    <option>Sort by price</option>
+                    <option> sort by popularity</option>
+                    <option>Newest First</option>
+                </select> </p>
+                <br>
+            
+            <div class="product-container" id="shop">
+              <div class="product-card" id="REDMI">
+                  <div class="product-image">
+                      
+                     
+                    <a href="#" ><img src="webphoto/mobile.jpg" class="product-thumb" alt=""></a>
+                     
+                      <a class="card-btn" href="#">add to whislist</a>
+                      
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">REDMI</h2>
+                      <p class="product-short-des">Redmi Note 10T 5G (green,black) </p>
+                      <p style="opacity:0.5"> storage 128 GB  and 6 GB Ram</p>
+                      <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                       <p> <span class="price" value='100'>$100</span><span class="actual-price">$120</span></p>
+                        <button class="add-to-cart" id='test'>ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="product-card" id="APPLE">
+                <div class="product-image">
+                    
+                   
+                  <a href="#" ><img src="webphoto/mobile5.jpg" class="product-thumb" alt=""></a>
+                   
+                    <a class="card-btn" href="#">add to whislist</a>
+                    
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">APPLE</h2>
+                    <p class="product-short-des">Aplle iphone 13(Black,128GB</p>
+                    <div class="ratings">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      </div>
+                   <p> <span class="price" value='160'>$160</span><span class="actual-price">$200</span></p>
+                    <button class="add-to-cart" id='test'>ADD TO CART</button>
+                </div>
+            </div><div class="product-card" id="OPPO">
+              <div class="product-image">
+                  
+                 
+                <a href="#" ><img src="webphoto/mobile2.png" class="product-thumb" alt=""></a>
+                 
+                  <a class="card-btn" href="#">add to whislist</a>
+                  
+              </div>
+              <div class="product-info">
+                  <h2 class="product-brand">OPPO</h2>
+                  <p class="product-short-des">OPPO Reno7 5G 256GB</p>
+                  <p>(Blue color,RAM 8GB)</p>
+                  <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    </div>
+               <p> <span class="price" value='95'>$95</span><span class="actual-price">$125</span></p>
+                <button class="add-to-cart" id='test'>ADD TO CART</button>
+                  
+              </div>
+          </div>
+          <div class="product-card" id="REDMI">
+            <div class="product-image">
+                
+               
+              <a href="#" ><img src="webphoto/mobile1.jpg" class="product-thumb" alt=""></a>
+               
+                <a class="card-btn" href="#">add to whislist</a>
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">REDMI</h2>
+                <p class="product-short-des">Redmi Note 10s 64GB</p>
+                <p>RAM 6GB (deep sea blue,sunset)</p>
+                <div class="ratings">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  </div>
+              <p>  <span class="price" value='90'>$90</span><span class="actual-price">$130</span></p>
+                <button class="add-to-cart" id='test'>ADD TO CART</button>
+            </div>
+          </div>
+          
+          </div>
+          </section>
+         
+          
+          <br>
+          <br>
+          <section class="product">
+            <h2 class="product-category"></h2>
+            <div class="product-container" id="shop">
+              <div class="product-card" id="APPLE">
+                  <div class="product-image">
+                      
+                     
+                    <a href="#" ><img src="webphoto/mobile4.jpg" class="product-thumb" alt=""></a>
+                     
+                      <a class="card-btn" href="#">add to whislist</a>
+                      
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">APPLE</h2>
+                      <p class="product-short-des">iphone 11(white,64GB)</p>
+                      
+                      <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                       <p> <span class="price" value='100'>$100</span><span class="actual-price">$120</span></p>
+                        <button class="add-to-cart" id='test'>ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="product-card" id="APPLE">
+                <div class="product-image">
+                    
+                   
+                  <a href="#" ><img src="webphoto/mobile3.jpg" class="product-thumb" alt=""></a>
+                   
+                    <a class="card-btn" href="#">add to whislist</a>
+                    
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">APPLE</h2>
+                    <p class="product-short-des">Aplle iphone 13pro(Black,128GB</p>
+                    <div class="ratings">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      </div>
+                   <p> <span class="price" value='170'>$170</span><span class="actual-price">$210</span></p>
+                    <button class="add-to-cart" id='test'>ADD TO CART</button>
+                </div>
+            </div><div class="product-card" id="OPPO">
+              <div class="product-image">
+                  
+                 
+                <a href="#" ><img src="webphoto/mobile6.jpg" class="product-thumb" alt=""></a>
+                 
+                  <a class="card-btn" href="#">add to whislist</a>
+                  
+              </div>
+              <div class="product-info">
+                  <h2 class="product-brand">OPPO</h2>
+                  <p class="product-short-des">OPPO Reno7 5G 256GB</p>
+                  <p>(Blue color,RAM 8GB)</p>
+                  <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    </div>
+               <p> <span class="price" value='95'>$95</span><span class="actual-price">$125</span></p>
+                <button class="add-to-cart" id='test'>ADD TO CART</button>
+                  
+              </div>
+          </div>
+          <div class="product-card" id="REDMI">
+            <div class="product-image">
+                
+               
+              <a href="#" ><img src="webphoto/mobile7.jpg" class="product-thumb" alt=""></a>
+               
+                <a class="card-btn" href="#">add to whislist</a>
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">REDMI</h2>
+                <p class="product-short-des">Redmi Note 10s 64GB</p>
+                <p>RAM 6GB (deep sea blue,sunset)</p>
+                <div class="ratings">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  </div>
+               <p> <span class="price" value='90'>$90</span><span class="actual-price">$130</span></p>
+                <button class="add-to-cart" id='test'>ADD TO CART</button>
+            </div>
+          </div>
+          
+          </div>
+          </section>
+          </div>
+         
+          
+          <br>
+          <br>
+
+
+
+          <script>
+            var menulist=document.getElementById("menulist");
+            menulist.style.maxHeight="0px";
+            function togglemenu(){
+                if(menulist.style.maxHeight=="0px")
+                {
+                    menulist.style.maxHeight="160px";
+                }
+                else{
+                    menulist.style.maxHeight="0px";
+                }
+            }
+        </script>
+
+           <!----------------------------------------- footer---------------------------------------------->
+           <div class="footer">
+
+            <div class="footercontainer">
+            
+            <div class="footerrow">
+            
+            
+            <div class="footer-col-1">
+            <a href="index.html"><img src="webphoto/pawarcart.png"></a>
+            <p> Our purpose is to Sustainbly Make the Pleasure and Benefits of Online Accessible to the Many. </p>
+            </div>
+            
+            <div class="footer-col-2">
+            <h3 style="color: red; font-weight:bold"> Useful Links</h3>
+            
+            <ul>
+            <li><a href="#"> Coupons  </a></li>
+            <li> <a href="#"> Blog Post </a></li>
+            <li> <a href="#">FAQ </a></li>
+            <li><a href="#"> Join Affliate </a></li>
+            <li><a href="#"> Return Policy </a></li>
+            </ul>
+            </div>
+            
+            <div class="footer-col-3">
+            <h3 style="color: red; font-weight:bold"> Product</h3>
+            <ul>
+            <li> <a href="#">Watch</a> </li>
+            <li> <a href="#">Shirt</a>  </li>
+            <li> <a href="#">Shoes</a>  </li>
+            <li> <a href="#">Mobile</a>  </li>
+            </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3 style="color: red; font-weight:bold"> Company</h3>
+                <ul>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Privacy Policy</a>  </li>
+                <li> <a href="#">Terms&services</a>  </li>
+                <li> <a href="#"> Contacts</a> </li>
+                </ul>
+                </div>
+            
+            </div> <!----row---->
+            
+            <hr>
+            <p class="copyright"> Copyright 2022  &copy;Pawarcart </p>
+            <div class="socials">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-youtube"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-tumblr"></i></a>
+            </div>
+            </div> <!----container----->
+            
+            </div> <!----footer----->
+
+            
+
+
+
+         <!----------------------------------------- footer---------------------------------------------->
+                  
+          </body>
+          </html>

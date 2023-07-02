@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patilcart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width-device-width ,initial-scale:1.0">
+      
+  </style> 
+        
+      </head>
+
+    <body>
+        <div class="navbar">
+            <a href="products.html" ><img src="webphoto/patilcart.png" class="logo"></a>
+            <nav>
+                <ul id="menulist">
+                    
+                    <li> <a href="products.html"> Products</a> </li>
+                    <li> <a href="index.html"> Home</a> </li>
+                    <li> <a href="contactus.html" >Contact us  </a></li>
+                    <li> <a href="log.html"> login</a> </li>
+                    <li> <a href="cart.html" style="margin-right:20px"> <i  class="fa fa-shopping-cart"></i></a> </li>
+                </ul>
+            </nav>
+            <img src="webphoto/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+      
+       
+          
+            <div class="message">
+            <form>
+               <div class="messagerow">
+                <div class="input-group">
+                    <input type="text" id="name"  required>
+                    <label for="name"><i class="fa fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number"  required>
+                    <label for="number"><i class="fas fa-mobile-phone"></i> Phone No.</label>
+                </div>
+               </div>
+               
+                <div class="input-group">
+                    <input type="email" id="email"  required>
+                    <label for="email"><i class="fa fa-envelope"></i> Email id</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="mesaage"  rows="10" required></textarea>
+                    <label for="message"><i class="fa fa-comments"></i> Your Message</label>
+                </div>
+                <button type="submit" >SUBMIT<i class="fa fa-paper-plane"></i> </button>
+            </form>
+            </div>
+
+            <script>
+                var menulist=document.getElementById("menulist");
+
+menulist.style.maxHeight="0px";
+
+function togglemenu(){
+if(menulist.style.maxHeight=="0px"){
+menulist.style.maxHeight="160px";
+}
+else
+{
+menulist.style.maxHeight="0px";
+}
+}
+
+           let bigImg =document.querySelector('.big-img img');
+           function showImg(pic){
+            bigImg.src=pic;
+           }
+
+
+         </script>  
+
+
+
+            </body>
+            </html>

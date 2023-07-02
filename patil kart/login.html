@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pailcart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width-device-width ,initial-scale:1.0">
+        <style>
+          * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(webphoto/background\ .jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+</style> 
+        
+        
+    </head>
+
+    <body>
+      <div class="smallcontainer">
+        <div class="navbar">
+            <a href="products.html" ><img src="webphoto/patilcart.png" class="logo"></a>
+            <nav>
+                <ul id="menulist">
+                    
+                    <li> <a href="products.html"> Products</a> </li>
+                    <li> <a href="index.html"> Home</a> </li>
+                    <li> <a href="contactus.html" >Contact us  </a></li>
+                    <li> <a href="log.html"> login</a> </li>
+                    <li> <a href="cart.html" style="margin-right:20px"> <i  class="fa fa-shopping-cart"></i></a> </li>
+                </ul>
+            </nav>
+            <img src="webphoto/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+      <div class="container">
+        <div class="form">
+         
+              <h3 style="margin-left:10%;margin-top: 15px;"><b>SIGNUP</b></h3>
+              <br>
+              <div >
+                <i class="fa fa-user-circle" style="margin-left: 150px;font-size:50px"></i>
+              </div>
+          <!------ Login Form -------- -->
+          <form class="login" action="" method="get">
+            
+            <div class="formGroup">
+              <i class="fa fa-user" style="margin-top:12px; color:black bold"></i><input type="text" placeholder="Enter Username" name="username" required autocomplete="off">
+            </div>
+            <div class="formGroup">
+                <i class="fa fa-envelope" style="margin-top:12px; color:black bold"></i><input type="email" id="gmail" placeholder="Enter Email Id" required autocomplete="off">
+             
+            </div>
+            <div class="formGroup">
+              <i class="fa fa-key" style="margin-top:12px; color:black bold"></i><input type="password" id="password" placeholder="Password" required autocomplete="off">
+           
+          </div>
+          <div class="formGroup">
+            <i class="fa fa-lock" style="margin-top:12px; color:black bold"></i><input type="password" id="password" placeholder="Confirm Password" required autocomplete="off">
+         
+        </div>
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox" id="checkbox">
+              <span class="text">I agree to the<a href="#">Terms and Services</a>and <a href="#">Privacy Policy</a></span>
+            </div>
+           
+    
+      <div class="loginform" >
+        <button type="button" class="cancelbtn"><a href="log.html">Cancel</a></button>
+        <button type="button" class="signbtn" ><a href="login.html">Signup</a></button>
+      </div>
+      
+    </form>
+    </div>
+    </div>
+</div>
+</div>
+<script>
+var menulist=document.getElementById("menulist");
+menulist.style.maxHeight="0px";
+function togglemenu(){
+  if(menulist.style.maxHeight=="0px")
+  {
+      menulist.style.maxHeight="160px";
+  }
+  else{
+      menulist.style.maxHeight="0px";
+  }
+}
+</script>
+
+
+
+  
+</body>
+</html>
